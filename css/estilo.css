@@ -1,0 +1,106 @@
+*{
+    margin: 0;
+    bottom: 0;
+    font-family: 'Gugi', cursive;
+    background: whitesmoke
+}
+
+header{
+    height: 25vh;
+}
+
+.software{
+    position: fixed;
+    top: 30px;
+    left: 30px;
+    height: 20px;
+}
+
+.about-me{
+    position: fixed;
+    padding: 5px;
+    top: 23px;
+    right: 30px;
+    border: 2px solid #A6636F;
+    border-radius: 2px;
+    height: 20px;
+    margin-top: 0px;
+    display: inline-block;
+    color: black;
+}
+
+.about-me:hover{
+    background: #A6636F;
+    color: whitesmoke;
+}
+
+.centro{
+    width: 90%;
+    max-width: 1200px;
+    overflow: hidden;
+    margin: auto;
+    padding: 60px 0;
+}
+
+.mundo{
+    padding: 0;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.type{
+    font-family: 'Inconsolata', monospace;
+    font-size: 300%;
+}
+
+.imagenref{
+    width: 45%;
+}
+
+.habilidadesmias{
+    text-align: center;
+}
+
+.mobile{
+    background: whitesmoke;
+    padding: 40px;
+    width: 100%;
+}
+
+.container{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    text-align: center;
+}
+
+.item{
+    flex: 1;
+    text-transform: uppercase;
+    font-size: 13px;
+    justify-content: space-evenly;
+    margin-bottom: 40px;
+    display: flex;
+    flex-direction: column;
+    height: 100px;
+    margin: 15em;
+    background-color: #A6636F;
+}
+
+.item p{
+    background-color: #A6636F;
+}
+
+.item span{
+    display: block;;
+    font-size: 30px;
+    justify-content: space-evenly;    
+}
+
+span2{
+    font-size: 200%;
+    background-color: #A6636F;
+}
